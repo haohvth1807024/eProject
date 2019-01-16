@@ -1,0 +1,112 @@
+#bgr{
+background-image: url(../images/or.jpg);
+background-attachment: fixed;
+}
+#bgrr{
+background-image: url(../images/or.jpg);
+background-attachment: fixed;
+
+}
+/*kích thước ảnh học viên */
+.img{
+  width: 150px;
+  height: 150px;
+}
+
+/* kích thước  Quang cáo  */
+.banner img{
+  width: 50px;
+  height: 50px;
+}
+
+/* Vị trí và màu danh sách tin tức*/
+#list1{
+  margin-top: 27px;
+  border: 3px solid orange;
+
+}
+#list1 i{
+   color:red;
+}
+#list1 li :hover{
+  color:white;
+  background-color: orange;
+
+}
+#head_list1{
+  background-color: red;
+  color: white;
+}
+#list2{
+  margin-top: 27px;
+    border: 3px solid orange;
+}
+#list2 i{
+  color: blue;
+}
+#list2 li :hover{
+  color:white;
+  background-color: orange;
+}
+
+/* làm ảnh phóng to khi hover  */
+.hv{
+  width: 100%;
+height: 100%;
+transition-duration: 0.5s;
+    /* Safari & Google Chrome */
+    -webkit-transition-duration: 0.5s;
+    /* Mozilla Firefox */
+    -moz-transition-duration: 0.5s;
+    /* Opera */
+    -o-transition-duration: 0.5s;
+    /* IE 9 */
+    -ms-transition-duration: 0.5s;
+}
+.hv:hover{
+  transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      -o-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+  cursor: pointer;
+
+}
+/* Đổi màu chữ trong đoạn văn */
+.doan_van{
+  color:#ff7f00 ;
+}
+.dong_ho{
+width: 100%;
+height: 100%;
+   overflow: hidden;
+  transition-duration: 0.5s;
+    /* Safari & Google Chrome */
+    -webkit-transition-duration: 0.5s;
+    /* Mozilla Firefox */
+    -moz-transition-duration: 0.5s;
+    /* Opera */
+    -o-transition-duration: 0.5s;
+    /* IE 9 */
+    -ms-transition-duration: 0.5s;
+}
+.dong_ho:hover{
+  transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      -o-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+  cursor: pointer;
+
+
+}
+.table_left a{
+  background-color: #f2f296;
+  color: #ff7f00;
+border: 1px solid #f2f296;
+}
+.table_left li:hover{
+  border-right : 5px solid orange;
+   background-color: #ffb26b;
+   color: white;
+}

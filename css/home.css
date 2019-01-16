@@ -1,0 +1,210 @@
+
+/* tạo màu header*/
+.head_page{
+  background-color: orange;
+
+}
+.head_page a{
+  color: black;
+
+}
+/* tạo màu khi di chuột*/
+.head_page a:hover{
+  background-color: #ea7507;
+  color: orange;
+  border-right: 5px solid #f9fc3f;
+}
+/* tạo màu cho link  của thanh menu */
+.menu_page a{
+  background-color: #ff9532;
+}
+/* chỉnh kích thước ảnh môn học  */
+.home_img img{
+  width: 14.5rem;
+  height: 180px;
+  margin: 0 auto;
+}
+/* căn lề trên dưới cho các khóa học */
+.align_card{
+  margin-top: 20px;
+}
+/* background cho khóa học*/
+.bg_kh{
+  background-color:  #F7F5F4;
+}
+/* kích thước ảnh của contact*/
+.contact_img img{
+  width: 20px;
+  height: 20px;
+}
+
+.tobica-slideshow img{
+  height: 500px;
+}
+/* Tạo khung cho ảnh */
+.border_card{
+
+
+  margin-bottom: 20px;
+
+}
+/* Tạo boder và bg cho mục contact*/
+.boder_contact{
+  border: 2px solid #FFC107;
+
+}
+
+.boder_contact_li a{
+  border-bottom: 2px solid #FFC107;
+}
+.bg_li{
+  background-color: #FFFCCE;
+line-height: 5px;
+}
+.bg_li:hover{
+  background-color: #16F3FF;
+  border-right: 6px solid #164782 ;
+  color: white;
+}
+.banerr1{
+  width: 16.5rem;
+  height: 300px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+/* làm banner to ra khi hover */
+.banner1 {
+  width: 100%;
+  height: 100%;
+
+  transition-duration: 0.5s;
+    /* Safari & Google Chrome */
+    -webkit-transition-duration: 0.5s;
+    /* Mozilla Firefox */
+    -moz-transition-duration: 0.5s;
+    /* Opera */
+    -o-transition-duration: 0.5s;
+    /* IE 9 */
+    -ms-transition-duration: 0.5s;
+
+}
+
+.banner1:hover{
+
+    transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+    cursor: pointer;
+
+}
+
+.earth{
+  width: 368px;
+  height: 100%;
+}
+.earth img {
+  width: 100%;
+  height: 100%;
+}
+.mission{
+
+   background-color: #F7F5F4;
+
+}
+.values li{
+ margin-top: 12px;
+
+}
+.values img{
+  margin-right: 8px;
+}
+#xemthem1{
+  display: none;
+}
+#xemthem2{
+  display: none;
+}
+#xemthem3{
+  display: none;
+}
+#xemthem4{
+  display: none;
+}
+#xemthem5{
+  display: none;
+}
+#xemthem6{
+  display: none;
+}
+.class_1 img{
+  width: 120px;
+  height: 120px;
+}
+.class_1 h3{
+  color: #FF890B;
+}
+/* tạo boder và kích thước mục kém tiếng anh*/
+.think img{
+  width: 350px;
+  height: 490px;
+}
+.card_think{
+
+
+}
+.none{
+  height: 40px;
+  background-color:#FFC107;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.van_de{
+  color: #474CAD;
+  margin-top: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition-duration: 0.5s;
+    /* Safari & Google Chrome */
+    -webkit-transition-duration: 0.5s;
+    /* Mozilla Firefox */
+    -moz-transition-duration: 0.5s;
+    /* Opera */
+    -o-transition-duration: 0.5s;
+    /* IE 9 */
+    -ms-transition-duration: 0.5s;
+
+}
+.van_de :hover{
+  transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      -o-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+  cursor: pointer;
+  background-color:#072345;
+color: orange;
+}
+.van_de span:hover{
+  color: orange;
+  background-color: white;
+}
+.h5{
+  border-bottom: 1px solid #CCCCCC;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+/* chỉnh ảnh người sáng lập */
+#truong{
+  padding-left: 30px;
+}
+#thuyen{
+  padding-left: 100px;
+}
+#thao{
+  padding-left: 170px;
+}
+#hao{
+  padding-left: 180px;
+}
