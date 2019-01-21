@@ -1,15 +1,7 @@
 .head_sv{
  position: relative;
 }
-#bgr{
-background-image: url(../images/or.jpg);
-background-attachment: fixed;
-}
-#bgrr{
-background-image: url(../images/or.jpg);
-background-attachment: fixed;
 
-}
 /*kích thước ảnh học viên */
 .img{
   width: 150px;
