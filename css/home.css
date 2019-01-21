@@ -1,11 +1,9 @@
 
 /* tạo màu header*/
-.head_page{
-  background-color: orange;
 
-}
 .head_page a{
   color: black;
+  font-size: 19px;
 
 }
 /* tạo màu khi di chuột*/
@@ -15,8 +13,8 @@
   border-right: 5px solid #f9fc3f;
 }
 /* tạo màu cho link  của thanh menu */
-.menu_page a{
-  background-color: #ff9532;
+.menu_page{
+
 }
 /* chỉnh kích thước ảnh môn học  */
 .home_img img{
