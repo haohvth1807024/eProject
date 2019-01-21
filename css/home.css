@@ -3,7 +3,7 @@
 
 .head_page a{
   color: black;
-  font-size: 19px;
+  font-size: 17px;
 
 }
 /* tạo màu khi di chuột*/
@@ -21,6 +21,7 @@
   width: 14.5rem;
   height: 180px;
   margin: 0 auto;
+  margin-top: 15px;
 }
 /* căn lề trên dưới cho các khóa học */
 .align_card{
