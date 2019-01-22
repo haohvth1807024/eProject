@@ -1,3 +1,28 @@
+
+
+
+
+/*
+<div class="text-center mb-4 mt-4"  >
+  <div class="card mx-auto img-fluid hv"  style=" width: 14.6rem;">
+   <figure>
+
+
+    <img class="card-img-top img "    src="images/hv3.jpg" alt="Card image cap">
+
+      <h5 class="card-title">Pauce Wallker</h5>
+      <h6 class="card-title">Design Team</h6>
+      <p class="card-text text-dark">Some quick example text to build on the card title and make up .</p>
+
+      <button type="button" class="btn btn-warning">Xem Thêm</button>
+
+   </figure>
+  </div>
+</div>
+*/
+
+
+
 .head_sv{
  position: relative;
 }
@@ -15,34 +40,7 @@
 }
 
 /* Vị trí và màu danh sách tin tức*/
-#list1{
-  margin-top: 27px;
-  border: 3px solid orange;
 
-}
-#list1 i{
-   color:red;
-}
-#list1 li :hover{
-  color:white;
-  background-color: orange;
-
-}
-#head_list1{
-  background-color: red;
-  color: white;
-}
-#list2{
-  margin-top: 27px;
-    border: 3px solid orange;
-}
-#list2 i{
-  color: blue;
-}
-#list2 li :hover{
-  color:white;
-  background-color: orange;
-}
 
 /* làm ảnh phóng to khi hover  */
 .hv{
@@ -97,7 +95,7 @@ height: 100%;
 }
 .table_left a{
   background-color: #f2f296;
-  color: #ff7f00;
+  color:black;
 border: 1px solid #f2f296;
 }
 .table_left li:hover{
