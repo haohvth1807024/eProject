@@ -13,7 +13,8 @@
   border-right: 5px solid #f9fc3f;
 }
 /* tạo màu cho link  của thanh menu */
-.menu_page{
+.home_img{
+
 
 }
 /* chỉnh kích thước ảnh môn học  */
@@ -22,6 +23,7 @@
   height: 180px;
   margin: 0 auto;
   margin-top: 15px;
+
 }
 /* căn lề trên dưới cho các khóa học */
 .align_card{
