@@ -2,27 +2,6 @@
 
 
 
-/*
-<div class="text-center mb-4 mt-4"  >
-  <div class="card mx-auto img-fluid hv"  style=" width: 14.6rem;">
-   <figure>
-
-
-    <img class="card-img-top img "    src="images/hv3.jpg" alt="Card image cap">
-
-      <h5 class="card-title">Pauce Wallker</h5>
-      <h6 class="card-title">Design Team</h6>
-      <p class="card-text text-dark">Some quick example text to build on the card title and make up .</p>
-
-      <button type="button" class="btn btn-warning">Xem Thêm</button>
-
-   </figure>
-  </div>
-</div>
-*/
-
-
-
 .head_sv{
  position: relative;
 }
@@ -121,6 +100,14 @@ border: 1px solid #f2f296;
   border-bottom: 2px solid #BDBEC2;
  margin-top: 20px;
 }
+.section_new_1 a{
+color:black;
+}
+.section_new_1 a:hover{
+color:red;
+
+}
+
 @media only screen and (max-width: 576px) {
   .responsive {
     width: 100%;
