@@ -1,15 +1,11 @@
+
+
+
+
 .head_sv{
  position: relative;
 }
-#bgr{
-background-image: url(../images/or.jpg);
-background-attachment: fixed;
-}
-#bgrr{
-background-image: url(../images/or.jpg);
-background-attachment: fixed;
 
-}
 /*kích thước ảnh học viên */
 .img{
   width: 150px;
@@ -23,37 +19,16 @@ background-attachment: fixed;
 }
 
 /* Vị trí và màu danh sách tin tức*/
-#list1{
-  margin-top: 27px;
-  border: 3px solid orange;
 
-}
-#list1 i{
-   color:red;
-}
-#list1 li :hover{
-  color:white;
-  background-color: orange;
-
-}
-#head_list1{
-  background-color: red;
-  color: white;
-}
-#list2{
-  margin-top: 27px;
-    border: 3px solid orange;
-}
-#list2 i{
-  color: blue;
-}
-#list2 li :hover{
-  color:white;
-  background-color: orange;
-}
 
 /* làm ảnh phóng to khi hover  */
 .hv{
+
+  box-shadow: 5px 5px 5px #666;
+  -moz-box-shadow: 5px 5px 5px #666;
+  -webkit-box-shadow: 5px 5px 5px #666;
+  margin-right: 5px;
+  padding: 20px;
   width: 100%;
 height: 100%;
 transition-duration: 0.5s;
@@ -77,7 +52,7 @@ transition-duration: 0.5s;
 }
 /* Đổi màu chữ trong đoạn văn */
 .doan_van{
-  color:#ff7f00 ;
+  ;
 }
 .dong_ho{
 width: 100%;
@@ -105,7 +80,7 @@ height: 100%;
 }
 .table_left a{
   background-color: #f2f296;
-  color: #ff7f00;
+  color:black;
 border: 1px solid #f2f296;
 }
 .table_left li:hover{
@@ -113,6 +88,26 @@ border: 1px solid #f2f296;
    background-color: #ffb26b;
    color: white;
 }
+.section_new h3{
+  margin-top: 80px;
+  border-top: 2px solid #BDBEC2;
+ border-bottom:  2px solid #BDBEC2;
+ padding-top: 20px;
+ padding-bottom: 20px;
+}
+
+.section_new_1{
+  border-bottom: 2px solid #BDBEC2;
+ margin-top: 20px;
+}
+.section_new_1 a{
+color:black;
+}
+.section_new_1 a:hover{
+color:red;
+
+}
+
 @media only screen and (max-width: 576px) {
   .responsive {
     width: 100%;
