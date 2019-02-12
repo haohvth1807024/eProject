@@ -13,13 +13,13 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
     <!-- End Style CSS -->
-    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- <script src="js/jquery-3.3.1.min.js"></script> -->
+    <script src="js/jquery-3.2.1.min.js"></script>
     <link rel="stylesheet" href="css/news.css">
     <title>TOBICA - Trang Chủ</title>
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <link rel="stylesheet" href="css/home.css">
-	<link href="css/contact.css" rel="stylesheet" type="text/css">
-	<link href="css/registration.css" rel="stylesheet" type="text/css">
+    <link href="css/registration.css" rel="stylesheet" type="text/css">
   <script src="js/home.js">
     </script>
     <script src="lazyload.min.js"></script>
@@ -30,7 +30,7 @@
 
   </head>
 	
-  <body style="background:#F7F5F4;">
+<body style="background:#F7F5F4;">
 	  
     <!--header-->
     <div class="main">
@@ -159,8 +159,68 @@
 		<div class="wrapper">
 			<div class="container">
 			<!--Content-->
-
+			  <div class="instruct">
+					<img src="images/homeTobica/logo.png" alt="">
+					<h3>REGISTRATION CLASS</h3>
+				</div>
 				
+			  <div class="mainform">
+					<form action="returnsubmit.html">
+						<div class="subform" id="leftform">
+							<p>Full name <span>(*)</span></p>
+							<input type="text">
+							
+							<p>Gender <span>(*)</span></p>
+							<select>
+							  <option value="male">Male</option>
+							  <option value="female">Female</option>
+						  	</select>
+							
+							<p>Date of birth <span>(*)</span></p>
+							<input type="date">
+							
+							<p>Phone number <span>(*)</span></p>
+							<input type="tel">
+
+						</div>
+						
+						<div class="subform" id="rightform">
+
+							<p>Email <span>(*)</span></p>
+							<input type="email">	
+
+							<p>Sellect the class <span>(*)</span></p>
+							<select>
+								<option value="basic1">BASIC 1</option>
+								<option value="basic2">BASIC 2</option>
+								<option value="gramma1">GRAMMA 1</option>
+								<option value="gramma2">GRAMMA 2</option>
+								<option value="toeic500+">TOEIC 500+</option>
+								<option value="toeic800+">TOEIC 800+</option>
+								<option value="toefl">TOEFL</option>
+								<option value="ielts">IELTS</option>
+							</select>
+
+							<p>Sellect the class <span>(*)</span></p>
+							<select>
+								<option value="morning">THE MORNING CLASS FROM 08AM - 11AM</option>
+								<option value="afternoon">THE AFTERNOON CLASS FROM 02PM - 05PM</option>
+								<option value="evening">THE EVENING CLASS FROM 06PM - 09PM</option>
+							</select>
+
+							<p>Sellect the Center <span>(*)</span></p>
+							<select>
+								<option value="my-dinh">MY DINH CENTER</option>
+								<option value="doi-can">DOI CAN CENTER</option>
+								<option value="hoa-lac">HOA LAC CENTER</option>
+							</select>
+					  </div>
+						
+						<button type="reset">RESET FORM</button>
+						<button type="submit">SUBMIT REGISTRATION</button>
+					</form>
+				</div>
+
 			<!--End content-->
 			</div>
 		</div>
@@ -275,9 +335,10 @@
     <!--End footer -->
 
     <!-- Script -->
-    <script src="js/libs/jquery-1.9.1.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="js/slide.js"></script>
-    <script type="text/javascript" src="bootstrap/bootstrap.min.js"></script>
-  </body>
+<script src="js/libs/jquery-1.9.1.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/slide.js"></script>
+<script src="js/popper.min.js"></script>
+<script type="text/javascript" src="bootstrap/bootstrap.min.js"></script>
+</body>
 	
 </html>
