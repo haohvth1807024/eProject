@@ -1,0 +1,144 @@
+
+/* tạo màu header*/
+
+.head_page a{
+  color: black;
+  font-size: 17px;
+
+}
+/* tạo màu khi di chuột*/
+.head_page a:hover{
+  background-color: #ea7507;
+  color: orange;
+  border-right: 5px solid #f9fc3f;
+}
+/* tạo màu cho link  của thanh menu */
+.home_img{
+
+
+}
+/* background cho khóa học*/
+.bg_kh{
+  background-color:  #F7F5F4;
+}
+/* kích thước ảnh của contact*/
+.contact_img img{
+  width: 20px;
+  height: 20px;
+}
+
+.tobica-slideshow img{
+  height: 500px;
+}
+/* Tạo boder và bg cho mục contact*/
+
+.fast_access{
+  margin-top: 20px;
+  width: 16.5rem;
+  border: 2px solid #AAAAAA;
+  background-color: white;
+
+}
+.list_access li{
+    list-style-type: none;
+  width: 14rem;
+  border-bottom: 1px dashed #BCBCBC;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 20px;
+  padding-bottom: 5px;
+
+}
+.list_access a{
+  color: black;
+}
+
+.fast_access_1{
+  margin-top: 20px;
+  width: 16.5rem;
+  border: 2px dashed  #FF6D00;
+  background-color: white;
+
+}
+
+.banerr1{
+  width: 16.5rem;
+  height: 300px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+/* to ra khi hover */
+.banner1 {
+  width: 100%;
+  height: 100%;
+
+  transition-duration: 0.5s;
+    /* Safari & Google Chrome */
+    -webkit-transition-duration: 0.5s;
+    /* Mozilla Firefox */
+    -moz-transition-duration: 0.5s;
+    /* Opera */
+    -o-transition-duration: 0.5s;
+    /* IE 9 */
+    -ms-transition-duration: 0.5s;
+
+}
+
+.banner1:hover{
+
+    transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+    cursor: pointer;
+
+}
+
+.list img{
+  width: 70px;
+  border-radius: 20px;
+}
+.frames{
+  padding-bottom: 14px;
+}
+.class-list{
+background: #f4db77;
+padding-left: 20px;
+padding-right: 20px;
+border-radius: 20px;
+}
+.element_style{
+  background: white;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  padding: 10px;
+}
+.element_frames{
+  display: flex;
+  flex-direction: row;
+}
+}
+.icon{
+  border-radius: 20px;
+}
+.icon img{
+  width: 100px;
+  height:100px;
+  border-radius: 50%;
+}
+#Registration{
+  background-color: #FF6D00;
+  border-color: #FF6D00;
+  border-radius: 20px;
+}
+.list_story img{
+  width: 64px;
+  height: 64px;
+  border-radius: 50px;
+}
+.font{
+  color:#3D3D3D;
+  padding: 5px;
+}
