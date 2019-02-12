@@ -72,7 +72,7 @@ a.nav-link{
 .navi-css .dropdown .drop-menu{
     display: none;
     width: 250px;
-    background-color: rgb(255, 255, 255,0.8);
+    background-color: rgb(255, 255, 255);
     position: absolute;
     z-index: 9999;
 }

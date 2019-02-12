@@ -24,9 +24,9 @@
 /* làm ảnh phóng to khi hover  */
 .hv{
 
-  box-shadow: 5px 5px 5px #666;
-  -moz-box-shadow: 5px 5px 5px #666;
-  -webkit-box-shadow: 5px 5px 5px #666;
+  box-shadow: 5px 5px 5px #CECECE;
+  -moz-box-shadow: 5px 5px 5px #CECECE;
+  -webkit-box-shadow: 5px 5px 5px #CECECE;
   margin-right: 5px;
   padding: 20px;
   width: 100%;
@@ -95,6 +95,9 @@ border: 1px solid #f2f296;
  padding-top: 20px;
  padding-bottom: 20px;
 }
+.section_new a p{
+  margin-left: 15px;
+}
 
 .section_new_1{
   border-bottom: 2px solid #BDBEC2;
@@ -107,7 +110,10 @@ color:black;
 color:red;
 
 }
-
+.banner_book img{
+  padding: 5px;
+  border: 1px solid #9B8F8F;
+}
 @media only screen and (max-width: 576px) {
   .responsive {
     width: 100%;
