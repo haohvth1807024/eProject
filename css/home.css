@@ -1,5 +1,11 @@
+.head_page{
 
-/* tạo màu header*/
+  background-color: #F7F5F4;
+  position: fixed !important;
+  top: 0  !important;
+  z-index: 9999;
+  width: 1200px;
+}
 
 .head_page a{
   color: black;

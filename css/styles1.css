@@ -79,7 +79,7 @@ a.nav-link{
 }
 .header-section .tobica-login .btn-warning{
     margin: 11px;
-    float: right;
+    margin-left: 100px;
     display: block;
 }
 .tobica-logo{
