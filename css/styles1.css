@@ -27,6 +27,7 @@ a:hover{
     margin: 0 auto;
     width: 1200px;
 }
+/* css cho phần header*/
 .header{
     width: 100%;
 	display: flex;
@@ -90,12 +91,48 @@ a.nav-link{
 .tobica-login{
 	float: left;
 }
+/* css cho phần content*/
 
 .content-tobica{
-    width: 100%;
+    /* width: 100%; */
     height: 500px;
     background-color: white;
 }
+.tobica-content-aboutus{
+    height: 600px;
+    background-color: #eeeeee;
+    padding-top: 50px;
+}
+.tobica-content-aboutus .aboutus-welcome{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.tobica-content-leader .aboutus-leader{
+    font-size: 30px;
+    margin-top: 40px;
+}
+/* .tobica-content-leader-member{
+    width: 100%;
+} */
+.tobica-content-leader-member{
+    margin-top: 50px;
+}
+.tobica-content-leader-member .leader-member{
+    width: 222px;
+    float: left;
+}
+.tobica-content-leader-member .leader-member img{
+    width: 150px;
+    margin-left: 35px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+}
+.tobica-content-leader-member .leader-member figcaption{
+    text-align: center;
+}
+/* css cho phần footer */
 .tobica-pre-footer{
     background-color: #ff890bba;
     padding: 10px;
