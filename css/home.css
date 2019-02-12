@@ -1,11 +1,11 @@
-.head_page{
+/* .head_page{
 
   background-color: #F7F5F4;
   position: fixed !important;
   top: 0  !important;
-  z-index: 9999;
+  z-index: 999;
   width: 1200px;
-}
+} */
 
 .head_page a{
   color: black;
