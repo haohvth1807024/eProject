@@ -5,6 +5,7 @@
   top: 0  !important;
   z-index: 999;
   width: 1200px;
+
 } */
 
 .head_page a{
@@ -14,9 +15,9 @@
 }
 /* tạo màu khi di chuột*/
 .head_page a:hover{
-  background-color: #ea7507;
+  background-color: #ea8407d6;
   color: orange;
-  border-right: 5px solid #f9fc3f;
+  /* border-right: 5px solid #f9fc3f; */
 }
 /* tạo màu cho link  của thanh menu */
 .home_img{

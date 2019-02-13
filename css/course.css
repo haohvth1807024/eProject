@@ -1,22 +1,4 @@
 
-/* tạo màu header*/
-
-.head_page a{
-  color: black;
-  font-size: 17px;
-
-}
-/* tạo màu khi di chuột*/
-.head_page a:hover{
-  background-color: #ea7507;
-  color: orange;
-  border-right: 5px solid #f9fc3f;
-}
-/* tạo màu cho link  của thanh menu */
-.home_img{
-
-
-}
 /* background cho khóa học*/
 .bg_kh{
   background-color:  #F7F5F4;
