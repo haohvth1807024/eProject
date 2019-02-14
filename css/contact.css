@@ -83,7 +83,6 @@
 }
 .content form button {
 	text-align: center;
-	font-weight: bold;
 	width: 150px;
 	border-radius: 10px;
 	background-color: #337AB7;
@@ -92,7 +91,6 @@
 
 }
 .content form a {
-	font-weight: bold;
 	color: #FFFFFF;
 
 }
