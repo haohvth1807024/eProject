@@ -7,11 +7,13 @@
 }
 .report form button {
 	border-radius: 5px;
-	background-color: #039FBF;
+	background-color: #337AB7;
 	color: #FFFFFF;
-	font-weight: bolder;
 	padding-right: 20px;
 	padding-left: 20px;
 	padding-top: 10px;
 	padding-bottom: 10px;
+}
+.wrapper .container .row {
+	margin-top: 15px;
 }
