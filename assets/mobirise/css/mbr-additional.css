@@ -141,7 +141,7 @@ body {
   background-color: #82786e !important;
 }
 .bg-warning {
-  background-color: #879a9f !important;
+
 }
 .bg-danger {
   background-color: #b1a374 !important;
@@ -228,9 +228,7 @@ body {
 }
 .btn-warning,
 .btn-warning:active {
-  background-color: #879a9f !important;
-  border-color: #879a9f !important;
-  color: #ffffff !important;
+
 }
 .btn-warning:hover,
 .btn-warning:focus,
@@ -1384,7 +1382,7 @@ body {
 }
 .cid-rie2F901wo {
   padding-top: 0px;
-  padding-bottom: 45px;
+  padding-bottom: 0px;
   background-color: #ffffff;
 }
 .cid-rie2F901wo .mbr-slider .carousel-control {
