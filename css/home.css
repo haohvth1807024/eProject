@@ -8,13 +8,13 @@
 
 } */
 
-.head_page a{
+.head_page .navi-css a{
   color: black;
   font-size: 17px;
 
 }
 /* tạo màu khi di chuột*/
-.head_page a:hover{
+.head_page .navi-css a:hover{
   background-color: #ea8407d6;
   color: orange;
   /* border-right: 5px solid #f9fc3f; */
@@ -52,6 +52,10 @@
 
 .tobica-slideshow img{
   height: 500px;
+}
+.tobica-slideshow h2{
+  background-color: rgb(229, 229, 229, 0.5);
+  color: black;
 }
 /* Tạo khung cho ảnh */
 .border_card{
