@@ -62,7 +62,7 @@ return $(this).each(function () {
 
 
 
-        $('.count-number').append('+');
+        // $('.count-number').append('+');
     }
 
   }
