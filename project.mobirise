@@ -1,0 +1,558 @@
+{
+  "settings": {
+    "name": "My Site",
+    "currentPage": "gallerycomponent.html",
+    "theme": {
+      "name": "mobirise4",
+      "title": "Mobirise 4",
+      "styling": {
+        "primaryColor": "#149dcc",
+        "secondaryColor": "#ff3366",
+        "successColor": "#F7ED4A",
+        "infoColor": "#82786E",
+        "warningColor": "#879A9F",
+        "dangerColor": "#B1A374",
+        "mainFont": "Rubik",
+        "display1Font": "Rubik",
+        "display1Size": 4.25,
+        "display2Font": "Rubik",
+        "display2Size": 3,
+        "display5Font": "Rubik",
+        "display5Size": 1.5,
+        "display7Font": "Rubik",
+        "display7Size": 1,
+        "display4Font": "Rubik",
+        "display4Size": 1,
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      },
+      "additionalSetColors": []
+    },
+    "path": "@PROJECT_PATH@",
+    "siteFonts": [],
+    "versionFirst": "4.7.6",
+    "uniqCompNum": 6,
+    "versionPublish": "4.9.3",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "gallerycomponent.html": {
+      "settings": {
+        "main": true,
+        "title": "Gallery Component",
+        "meta_descr": "Gallery of Tobica English Center",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background": "@overlayColor",
+              "opacity": "0",
+              "-webkit-transition": "0.2s opacity ease-in-out",
+              "transition": "0.2s opacity ease-in-out",
+              "& when (@gradOverlay)": {
+                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+              }
+            },
+            ".mbr-gallery-item > div:hover": {
+              ".mbr-gallery-title::before": {
+                "background": "transparent !important"
+              },
+              "&:before": {
+                "opacity": "@overlayOpacity !important"
+              }
+            },
+            ".mbr-gallery-title": {
+              "font-size": ".9em",
+              "position": "absolute",
+              "display": "block",
+              "width": "100%",
+              "bottom": "0",
+              "padding": "1rem",
+              "color": "#fff",
+              "z-index": "2",
+              "&:before": {
+                "content": "\" \"",
+                "width": "100%",
+                "height": "100%",
+                "top": "0",
+                "left": "0",
+                "z-index": "-1",
+                "position": "absolute",
+                "background": "@overlayColor !important",
+                "opacity": "@overlayOpacity",
+                "-webkit-transition": "0.2s background ease-in-out",
+                "transition": "0.2s background ease-in-out",
+                "& when (@gradOverlay)": {
+                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+                }
+              }
+            }
+          },
+          "_name": "gallery2",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\" mbr-gallery-show-filter mbr-gallery-show-text></div>\n    </div>\n\n</section>",
+          "_cid": "rie2F901wo",
+          "_anchor": "gallery2-3",
+          "_protectedParams": [
+            "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
+            "gallery"
+          ],
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "text_all": "All",
+            "gallery__filtersTextStyle": "display-7",
+            "gallery__filtersBtnStyle": "btn-primary-outline",
+            "gallery": [
+              {
+                "tags": "Lecturers",
+                "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/lec1-1536x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/lec1-1536x1024-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Mrs. Dang Kim Thi",
+                "active": false
+              },
+              {
+                "tags": "Lecturers",
+                "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/lec2-1536x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/lec2-1536x1024-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Ms. Nguyen Thu Thao",
+                "active": false
+              },
+              {
+                "tags": "Lecturers",
+                "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/lec3-1536x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/lec3-1536x1024-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Mr. Nguyen Van Thuyen",
+                "active": false
+              },
+              {
+                "tags": "Lecturers",
+                "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/lec5-1536x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/lec5-1536x1024-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Mr. Ha Van Hao",
+                "active": false
+              },
+              {
+                "tags": "Lecturers",
+                "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/lec7-1536x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/lec7-1536x1024-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Mrs. Pham Truong Phuong",
+                "active": false
+              },
+              {
+                "tags": "Lecturers",
+                "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/lec6-1536x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/lec6-1536x1024-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Mrs. An Tong",
+                "active": false
+              },
+              {
+                "tags": "Lecturers",
+                "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/lec4-1536x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/lec4-1536x1024-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Mr. Nguyen Hoc Dang Truong",
+                "active": false
+              },
+              {
+                "tags": "Lecturers",
+                "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/lec8-1536x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/lec8-1536x1024-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Mr. Ngo Van Trinh",
+                "active": false
+              },
+              {
+                "tags": "Classes",
+                "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/class1-1280x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/class1-1280x1024-800x640.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Basic 1<br>",
+                "active": false
+              },
+              {
+                "tags": "Classes",
+                "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/class2-1280x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/class2-1280x1024-800x640.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Basic 2",
+                "active": false
+              },
+              {
+                "tags": "Classes",
+                "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/class4-1280x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/class4-1280x1024-800x640.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Gramma 1<br>",
+                "active": false
+              },
+              {
+                "tags": "Classes",
+                "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/class3-1280x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/class3-1280x1024-800x640.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Gramma 2<br>",
+                "active": false
+              },
+              {
+                "tags": "Classes",
+                "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/class6-1280x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/class6-1280x1024-800x640.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Toeic 500+<br>",
+                "active": false
+              },
+              {
+                "tags": "Classes",
+                "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/class5-1280x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/class5-1280x1024-800x640.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Toeic 800+<br>",
+                "active": false
+              },
+              {
+                "tags": "Classes",
+                "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/class8-1280x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/class8-1280x1024-800x640.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Toefl 1<br>",
+                "active": false
+              },
+              {
+                "tags": "Classes",
+                "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/class7-1280x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/class7-1280x1024-800x640.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Ielts",
+                "active": false
+              },
+              {
+                "tags": "Events",
+                "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/event1-1536x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/event1-1536x1024-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Winter Holiday - the&nbsp;way to mountain",
+                "active": false
+              },
+              {
+                "tags": "Events",
+                "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/event4-1536x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/event4-1536x1024-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "The&nbsp;warm smiles",
+                "active": false
+              },
+              {
+                "tags": "Events",
+                "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/event3-1536x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/event3-1536x1024-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "the&nbsp;warm&nbsp;winter for poor children 1",
+                "active": false
+              },
+              {
+                "tags": "Events",
+                "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/event2-1536x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/event2-1536x1024-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "the warm winter for poor children 2",
+                "active": false
+              },
+              {
+                "tags": "Events",
+                "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/event8-1536x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/event8-1536x1024-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Teacher's Birthday",
+                "active": false
+              },
+              {
+                "tags": "Events",
+                "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/event6-1536x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/event6-1536x1024-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Boss' cool - Student's cooler",
+                "active": false
+              },
+              {
+                "tags": "Events",
+                "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/event5-1536x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/event5-1536x1024-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "The&nbsp;warm smile 2<br>",
+                "active": false
+              },
+              {
+                "tags": "Events",
+                "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/event7-1536x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/event7-1536x1024-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "The Green Day",
+                "active": false
+              },
+              {
+                "tags": "Videos",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019116-1710282019-1-6-21-32-33.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=ziwKYdX0NC8",
+                "image": "@PROJECT_PATH@/assets/images/clip1-618x350.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/clip1-618x350-618x350.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "FPT Aptech: The Python Programming &nbsp;Song<br>",
+                "active": false
+              },
+              {
+                "tags": "Videos",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019116-1710282019-1-6-21-36-4.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=KasonQU8TUg",
+                "image": "@PROJECT_PATH@/assets/images/clip1-618x350.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/clip1-618x350-618x350.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "FPT EDU -&nbsp;Đẳng cấp châu lục<br>",
+                "active": false
+              },
+              {
+                "tags": "Videos",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019116-1710282019-1-6-21-36-58.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=ukIx7BhJovM",
+                "image": "@PROJECT_PATH@/assets/images/clip1-618x350.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/clip1-618x350-618x350.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "One Day&nbsp;of Fsofter<br>",
+                "active": false
+              },
+              {
+                "tags": "Videos",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019116-1710282019-1-6-21-38-49.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=kgSHBscZVNI",
+                "image": "@PROJECT_PATH@/assets/images/clip1-618x350.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/clip1-618x350-618x350.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "FPT Aptech - Lựa chọn hàng&nbsp;đầu cho doanh nghiệp<br>",
+                "active": false
+              },
+              {
+                "tags": "Videos",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019116-1710282019-1-6-21-37-54.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=ap-veDBuRBw",
+                "image": "@PROJECT_PATH@/assets/images/clip1-618x350.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/clip1-618x350-618x350.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "FPT Aptech 2018 tốt nghiệp<br>",
+                "active": false
+              },
+              {
+                "tags": "Videos",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019116-1710282019-1-6-21-34-4.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=ol6fgo_v3qo",
+                "image": "@PROJECT_PATH@/assets/images/clip1-618x350.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/clip1-618x350-618x350.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Traffic 2069&nbsp;of FPT Aptech<br>",
+                "active": false
+              },
+              {
+                "tags": "Videos",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019116-1710282019-1-6-21-35-11.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=297D7wyOPDM",
+                "image": "@PROJECT_PATH@/assets/images/clip1-618x350.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/clip1-618x350-618x350.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "FPT - Trường học khác lạ<br>",
+                "active": false
+              },
+              {
+                "tags": "Videos",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019116-1710282019-1-6-21-53-2.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=153Sb9vrU0k",
+                "image": "@PROJECT_PATH@/assets/images/clip1-618x350.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/clip1-618x350-618x350.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "FPT 2017 tốt nghiệp:&nbsp;Arena, Aptech, Jetking<br>",
+                "active": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
